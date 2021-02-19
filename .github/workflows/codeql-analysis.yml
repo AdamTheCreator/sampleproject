@@ -49,7 +49,7 @@ jobs:
       uses: github/codeql-action/autobuild@v1
       with:
         config-file: ./.github/codeql/codeql-config.yml
-
+    # Test path ignore
     # ℹ️ Command-line programs to run using the OS shell.
     # 📚 https://git.io/JvXDl
 
