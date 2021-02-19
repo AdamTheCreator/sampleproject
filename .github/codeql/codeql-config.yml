@@ -2,6 +2,9 @@ name: "My CodeQL config"
 
 disable-default-queries: false
 
+queries:
+  - uses: security-and-quality
+
 paths:
   - src
 paths-ignore: 
